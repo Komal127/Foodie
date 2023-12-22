@@ -1,0 +1,396 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar-container{
+    display: flex;
+    align-items:center;
+    padding-top: 0.8vh;
+}
+.logo{
+    height: 4.8vw;
+    margin-left: 100px;
+}
+.search-icon{
+    height: 22px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 840px;
+}
+.search{
+    height: 45px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-color: #ff4d00;
+    border-right: none;
+    padding-left: 20px;
+}
+.search::placeholder{
+    font-size: 16px;
+}
+.search-btn{
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin-left: 878px;
+    margin-top: 25px;
+    position: absolute;
+    background-color: #ff4d00;
+    border-left: none;
+    border-color: #e3b7a4;
+}
+.home{
+    font-size: 22px;
+    margin-top: 34px;
+    margin-left: 140px;
+    color: black;
+    padding: 10px 20px 10px 20px;
+}
+.home:hover{
+    cursor: pointer;
+    background-color: #ff4d00;
+    color: white;
+}
+.login{
+    font-size: 22px;
+    margin-top: 34px;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    color: black;
+}
+.login:hover{
+    cursor: pointer;
+    background-color: #ff4d00;
+    color: white;
+}
+.signup{
+    font-size: 22px;
+    margin-top: 34px;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    color: black;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: #ff4d00;
+    color: white;
+}
+.cart{
+    font-size: 22px;
+    margin-top: 34px;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    color: black;
+}
+.cart:hover{
+    cursor: pointer;
+    background-color: #ff4d00;
+    color: white;
+}
+.second_container{
+    background-color: rgb(209, 209, 209);
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.pa1{
+    font-size: 35px;
+    margin-left: 100px;
+}
+#id1{
+    border: solid 2px black;
+    margin-top: 90px;
+    width: 140px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+}
+.box1{
+    margin-left: -198px;
+}
+#d1{
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+}
+.para1{
+    font-size: 20px;
+    margin-top: 4px;
+    color: black;
+}
+#p1{
+    margin-left: 38px;
+}
+#p2{
+    margin-left: 30px;
+}
+#p3{
+    margin-left: 48px;
+}
+#p4{
+    margin-left: 6px;
+}
+#p5{
+    margin-left: 46px;
+}
+#p6{
+    margin-left: 40px;
+}
+#p7{
+    margin-left: 40px;
+}
+#p8{
+    margin-left: 28px;
+}
+.box2{
+    margin-left: 30px;
+}
+.box3{
+    margin-left: 30px;
+}
+.box4{
+    margin-left: 30px;
+}
+.box5{
+    margin-left: 30px;
+}
+.box6{
+    margin-left: 30px;
+}
+.box7{
+    margin-left: 30px;
+}
+.box8{
+    margin-left: 30px;
+}
+.third_container{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    cursor: pointer;
+    color: black;
+}
+.div1{
+    border: solid 1px black;
+    border: none;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border: none;
+    border-radius: 20px;
+}
+.img1{
+    height: 300px;
+    width: 400px;
+}
+.img1:hover{
+    transform: scale(1.05);
+}
+.par1{
+    margin-left: 6px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: black;
+}
+.par2{
+    margin-left: 6px;
+    margin-top: -20px;
+    font-size: 16px;
+}
+.par3{
+    margin-left: 6px;
+    margin-top: -8px;
+    font-size: 18px;
+}
+.div2{
+    border: solid 1px black;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
+.img2{
+    height: 300px;
+    width: 400px;
+}
+.img2:hover{
+    transform: scale(1.05);
+}
+.div3{
+    border: solid 1px black;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
+.img3{
+    height: 300px;
+    width: 400px;
+}
+.img3:hover{
+    transform: scale(1.05);
+}
+.fourth_container{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    cursor: pointer;
+    color: black;
+}
+.div4{
+    border: solid 1px black;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
+.img4{
+    height: 300px;
+    width: 400px;
+}
+.img4:hover{
+    transform: scale(1.05);
+}
+.div5{
+    border: solid 1px black;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
+.img5{
+    height: 300px;
+    width: 400px;
+}
+.img5:hover{
+    transform: scale(1.05);
+}
+.div6{
+    border: solid 1px black;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
+.img6{
+    height: 300px;
+    width: 400px;
+}
+.img6:hover{
+    transform: scale(1.05);
+}
+.divbar1{
+    border: solid 1px grey;
+    height: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 120px;
+    display: flex;
+    cursor: pointer;
+    gap: 40px;
+}
+.divbar2{
+    height: 270px;
+    border: solid 1px black;
+    border: none;
+}
+.burger-result1{
+    height: 270px;
+    width: 400px;
+    border-radius: 10px;
+}
+.dish1{
+    font-size: 30px;
+    margin: 30px 0px 0px 0px;
+}
+.dish2{
+    font-size: 25px;
+    margin: 10px 0px 0px 0px;
+}
+.mini-div1{
+    margin: 10px 0px 0px 0px;
+}
+.dish3{
+    font-size: 25px;
+    color: grey;
+    margin: 0px 0px 0px 10px;
+}
+.dish4{
+    font-size: 16px;
+    color: white;
+    border: solid 1px black;
+    height: 18px;
+    width: 40px;
+    padding: 4px 10px 4px 10px;
+    background-color: #369d00;
+    border: none;
+    margin-left: 14px;
+}
+#mini-div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px 0px 0px 0px ;
+}
+.dish5{
+    border: solid 1px black;
+    background-color: #ff4d00;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    border: none;
+    width: 140px;
+    margin: 0;
+}
+.dish5:hover{
+    border-radius: 0px;
+}
+.dish5 p{
+    margin: 0px 0px 0px 18px;
+}
+.dish6{
+    border: solid 1px black;
+    background-color: #ff4d00;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    border: none;
+    width: 140px;
+    margin: 0;
+}
+.dish6:hover{
+    border-radius: 0px;
+}
+.dish6 p{
+    margin: 0px 0px 0px 4px;
+}
+.dish7{
+    font-size: 22px;
+    margin: 10px 0px 0px 0px;
+
+}
+.dish8{
+    font-size: 17px;
+    margin: 6px 0px 0px 0px;
+
+}
+.dish9{
+    font-size: 19px;
+    margin: 6px 0px 0px 0px;
+
+}

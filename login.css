@@ -1,0 +1,51 @@
+body{
+    background-image: url(assets/loginbackgroundpic.jpg);
+    background-size: cover;
+}
+.parent-container{
+    border: solid 0.3vh;
+    border-color: #ff4d00;
+    border-radius: 1.4vh;
+    height: 54vh;
+    width: 26vw;
+    margin-top: 20vh;
+    margin-left: 38vw;
+}
+.title{
+    font-size: 2.7vw;
+    color: #ff4d00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.number{
+    height: 5.2vh;
+    width: 17.5vw;
+    padding-left: 1.4vh;
+}
+.otp{
+    height: 5.2vh;
+    width: 17.5vw;
+    margin-top: 1.2vh;
+    padding-left: 1.4vh;
+}
+.continue{
+    height: 6vh;
+    width: 18.5vw;
+    margin-top: 4vh;
+    background-color: #ff4d00;
+    border-color: #ff4d00;
+    font-size: 1.1vw;
+    color: white;
+}
+.option{
+    margin-top: 1.3vh; 
+}
+.option-1{
+    font-size: 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.option-2{
+    font-size: 1.5vw;
+    color: #ff4d00;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
